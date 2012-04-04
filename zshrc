@@ -1,3 +1,5 @@
+[[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm"
+
 # Path to your oh-my-zsh configuration.
 ZSH=$HOME/.zsh
 
@@ -32,5 +34,3 @@ ZSH_THEME="solidcell"
 plugins=(git)
 
 source $ZSH/oh-my-zsh.sh
-
-[[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm"
