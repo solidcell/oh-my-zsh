@@ -31,6 +31,8 @@ ZSH_THEME="solidcell"
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
-plugins=(git)
+plugins=(git rails3)
 
 source $ZSH/oh-my-zsh.sh
+
+PATH=/opt/local/bin:/usr/local/sbin:/opt/local/sbin:/opt/local/lib/postgresql84/bin:/usr/local/bin:~:$PATH
