@@ -28,11 +28,15 @@ ZSH_THEME="solidcell"
 # Uncomment following line if you want red dots to be displayed while waiting for completion
 # COMPLETION_WAITING_DOTS="true"
 
-# Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
-# Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
-# Example format: plugins=(rails git textmate ruby lighthouse)
 plugins=(git rails3)
 
 source $ZSH/oh-my-zsh.sh
 
-PATH=/opt/local/bin:/usr/local/sbin:/opt/local/sbin:/opt/local/lib/postgresql84/bin:/usr/local/bin:~:$PATH
+PATH=$HOME/local/bin:/opt/local/bin:/usr/local/sbin:/opt/local/sbin:/opt/local/lib/postgresql84/bin:/usr/local/bin:~:$PATH
+EDITOR=vim
+NODE_PATH=$HOME/local/lib/node_modules
+
+DOC=$HOME/Documents
+DOW=$HOME/Downloads
+AE=$HOME/workspace/aegyptia
+CS=$HOME/workspace/coffee_script_book
