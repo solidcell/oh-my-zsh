@@ -1,5 +1,3 @@
-[[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm"
-
 # Path to your oh-my-zsh configuration.
 ZSH=$HOME/.zsh
 
@@ -32,11 +30,4 @@ plugins=(git rails3)
 
 source $ZSH/oh-my-zsh.sh
 
-PATH=$HOME/local/bin:/opt/local/bin:/usr/local/sbin:/opt/local/sbin:/opt/local/lib/postgresql84/bin:/usr/local/bin:~:$PATH
 EDITOR=vim
-NODE_PATH=$HOME/local/lib/node_modules
-
-DOC=$HOME/Documents
-DOW=$HOME/Downloads
-AE=$HOME/workspace/aegyptia
-CS=$HOME/workspace/coffee_script_book
