@@ -30,4 +30,32 @@ plugins=(git rails3)
 
 source $ZSH/oh-my-zsh.sh
 
-EDITOR=vim
+export EDITOR=vim
+
+WORKSPACE=$HOME/workspace
+W=$HOME/workspace
+Z=$HOME/.zsh
+V=$HOME/.vim
+
+alias tmux='tmux -2'
+
+alias be='bundle exec'
+alias bx='be'
+alias bec='be cucumber'
+alias ber='be rspec'
+alias bem='be rake db:migrate'
+alias betp='be rake db:test:prepare'
+
+alias gs='git status'
+alias gd='git diff'
+alias gdc='git diff --cached'
+alias gdh='git diff HEAD'
+alias ga='git add . && git add -u'
+alias gc='git commit'
+alias gac='ga && gc'
+alias gl='git log'
+alias gpl="git log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit"
+alias gbr='for branch in `git branch -r | grep -v HEAD`;do echo -e `git show --format="%ai %ar by %an %h" $branch | head -n 1` \\t$branch; done | sort -r' #list remote branches by author
+alias gbrm='gbr | grep "Jesse Farless"' #list my remote branches
+alias gbrs='git branch -r --merged origin/master' #list remote branches that have already been merged
+alias gbrsm='gbrs | grep "Jesse Farless"' #list my remote branches that have already been merged

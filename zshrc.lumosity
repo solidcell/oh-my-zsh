@@ -1,3 +1,20 @@
 source ~/.zsh/zshrc
 
 eval "$(rbenv init -)"
+
+export PATH=/usr/local/lib/node_modules:usr/local/bin:$HOME/bin:$PATH
+export PATH="/usr/local/heroku/bin:$PATH" # Added by the Heroku Toolbelt
+
+L=$WORKSPACE/lumos_rails
+T=$WORKSPACE/lumos_rails/engines/train
+G=$WORKSPACE/lumos_rails/engines/gym
+C=$WORKSPACE/catapult
+B=$WORKSPACE/beacon
+H=$WORKSPACE/hcp
+LUX=$WORKSPACE/lux
+CHEF=$WORKSPACE/chef-repo
+
+alias i18n_push='be rake interpreter:api:files:push'
+alias i18n_pull='be rake interpreter:api:files:pull'
+
+alias browserstack='BrowserStackLocal vxkVsot53raDFixV5wbT localhost,3000,0'
