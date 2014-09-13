@@ -48,12 +48,13 @@ alias betp='be rake db:test:prepare'
 
 alias gs='git status'
 alias gd='git diff'
-alias gdc='git diff --cached'
-alias gdh='git diff HEAD'
+alias gdc='gd --cached'
+alias gdh='gd HEAD'
 alias ga='git add'
-alias gaa='git add . && git add -u'
+alias gaa='ga . && ga -u'
 alias gc='git commit'
-alias gac='ga && gc'
+alias gcm='gc -m'
+alias gac='gaa && gc'
 alias gl='git log'
 alias gpl="git log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit"
 alias gbr='for branch in `git branch -r | grep -v HEAD`;do echo -e `git show --format="%ai %ar by %an %h" $branch | head -n 1` \\t$branch; done | sort -r' #list remote branches by author
