@@ -2,9 +2,6 @@ source ~/.zsh/zshrc
 
 eval "$(rbenv init -)"
 
-export PATH=/usr/local/lib/node_modules:usr/local/bin:$HOME/bin:$PATH
-export PATH="/usr/local/heroku/bin:$PATH" # Added by the Heroku Toolbelt
-
 L=$WORKSPACE/lumos_rails
 T=$WORKSPACE/lumos_rails/engines/train
 G=$WORKSPACE/lumos_rails/engines/gym
