@@ -61,6 +61,7 @@ alias gaa='ga . && ga -u'
 alias gc='git commit'
 alias gcm='gc -m'
 alias gac='gaa && gc'
+alias gacm='gac -m'
 alias gl='git log'
 alias gpl="git log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit"
 alias gbr='for branch in `git branch -r | grep -v HEAD`;do echo -e `git show --format="%ai %ar by %an %h" $branch | head -n 1` \\t$branch; done | sort -r' #list remote branches by author
