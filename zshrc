@@ -30,13 +30,6 @@ plugins=(git rails3)
 
 source $ZSH/oh-my-zsh.sh
 
-export EDITOR=vim
-
-export PATH=$HOME/bin:$PATH
-export PATH=/usr/local/bin:$PATH
-export PATH=/usr/local/lib/node_modules:$PATH
-export PATH=/usr/local/heroku/bin:$PATH
-
 WORKSPACE=$HOME/workspace
 W=$HOME/workspace
 D=$HOME/dotfiles
