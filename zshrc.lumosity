@@ -1,7 +1,5 @@
 source ~/.zsh/zshrc
 
-eval "$(rbenv init -)"
-
 L=$WORKSPACE/lumos_rails
 T=$WORKSPACE/lumos_rails/engines/train
 G=$WORKSPACE/lumos_rails/engines/gym
