@@ -62,5 +62,8 @@ alias gbrm='gbr | grep "Jesse Farless"' #list my remote branches
 alias gbrs='git branch -r --merged origin/master' #list remote branches that have already been merged
 alias gbrsm='gbrs | grep "Jesse Farless"' #list my remote branches that have already been merged
 
+alias ino_flora_build='ino build -m flora8'
+alias ino_flora_upload='ino upload -m flora8'
+
 ### Added by the Heroku Toolbelt
 export PATH="/usr/local/heroku/bin:$PATH"
