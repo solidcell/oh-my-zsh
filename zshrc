@@ -61,3 +61,6 @@ alias gbr='for branch in `git branch -r | grep -v HEAD`;do echo -e `git show --f
 alias gbrm='gbr | grep "Jesse Farless"' #list my remote branches
 alias gbrs='git branch -r --merged origin/master' #list remote branches that have already been merged
 alias gbrsm='gbrs | grep "Jesse Farless"' #list my remote branches that have already been merged
+
+### Added by the Heroku Toolbelt
+export PATH="/usr/local/heroku/bin:$PATH"
