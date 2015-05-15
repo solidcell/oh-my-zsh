@@ -13,3 +13,6 @@ alias i18n_push='be rake interpreter:api:files:push'
 alias i18n_pull='be rake interpreter:api:files:pull'
 
 alias browserstack='BrowserStackLocal vxkVsot53raDFixV5wbT localhost,3000,0'
+
+# added by travis gem
+[ -f /Users/jesse/.travis/travis.sh ] && source /Users/jesse/.travis/travis.sh
