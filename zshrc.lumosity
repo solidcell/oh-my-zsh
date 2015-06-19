@@ -14,5 +14,9 @@ alias i18n_pull='be rake interpreter:api:files:pull'
 
 alias browserstack='BrowserStackLocal vxkVsot53raDFixV5wbT localhost,3000,0'
 
+alias ba='bundle exec rake build_ipa:acceptance'
+
+alias git-remote-tags="git for-each-ref --sort=taggerdate --format '%(refname) %(taggerdate)' refs/tags"
+
 # added by travis gem
 [ -f /Users/jesse/.travis/travis.sh ] && source /Users/jesse/.travis/travis.sh
